@@ -17,7 +17,7 @@ class Solution
         }
         for(int j=0;j<pairsArray.Length;j++)
         {
-            if(pairsArray[j]>2)
+            if(pairsArray[j]>=2)
             {
                 decimal d = pairsArray[j] / 2;
                 pairsCount += Math.Floor(d);
